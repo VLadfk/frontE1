@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="/styles/search.css">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <a class="nav-item" href="/pages/index.html">Regestration</a>
+                <a class="nav-item" href="/pages/login.html">Login</a>
+                <a class="nav-item" href="/pages/search.html">Search</a>
+            </nav>
+        </header>
+        <section class="section">
+            <h1>Search</h1>
+            <div class="form-inner">
+                <form class="registration-form" action="https://fom.in.ua/echo" method="post" target="_blank">
+                    <fieldset>
+                        <legend class="legend">Car body types</legend>
+                        <label><input type="radio" name="carType" value="1">Sedan</label>
+                        <br>
+                        <label><input type="radio" name="carType" value="2">Coupe</label>
+                        <br>
+                        <label><input type="radio" name="carType" value="3">Hatchback</label>
+                        <br>
+                        <label><input type="radio" name="carType" value="4">Liftback</label>
+                        <br>
+                        <label><input type="radio" name="carType" value="5">Fastback</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legend">Manufacturer country </legend>
+                        <label><input type="checkbox" name="country" value="1">Italy</label>
+                        <br>
+                        <label><input type="checkbox" name="country" value="2">Germany</label>
+                        <br>
+                        <label><input type="checkbox" name="country" value="3">France</label>
+                        <br>
+                        <label><input type="checkbox" name="country" value="4">USA</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legend">Car brand</legend>
+                        <label><input type="checkbox" name="brand" value="1">Audi</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="2">Mercedes</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="3">BMW</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="4">Posche</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="5">Ferrari</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="6">Wolksvagen</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="7">Alfa Romeo</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="8">Maserati</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="9">Bugatti</label>
+                        <br>
+                        <label><input type="checkbox" name="brand" value="10">Peugeot</label>
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legend"> Year of manufacture </legend>
+                        <label><input type="number" name="year" min="2015" max="2023" step="1"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legend">Price</legend>
+                        <label><input type="range" name="price" min="500000" max="1000000" step="5000"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legend">Color</legend>
+                        <label><input type="color" name="color"></label>
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
