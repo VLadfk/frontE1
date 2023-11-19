@@ -47,4 +47,14 @@ h1 {
 }
 .legend {
   color: white;
+  font-family: "Glass Antiqua", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+.nav-item {
+  font-family: "Kanit", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
 }
